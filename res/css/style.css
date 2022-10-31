@@ -1,0 +1,29 @@
+.container{
+    display: block;
+    text-align: center;
+   
+    height: 100%;
+    padding: 2em;
+}
+input, button{
+    background-color: white;
+    border-radius: 5px;
+    color: #333;
+    transition: .5s;
+}
+input:hover{
+    background-color: rgba(179, 179, 179, 0.742);
+    color: rgb(46, 46, 46);
+}
+button:hover{
+    background-color: grey;
+    color: white;
+}
+img, button{
+    cursor: pointer;
+    transition: .5s;
+}
+img:hover{
+    
+    transform: scale(1.2);
+}
