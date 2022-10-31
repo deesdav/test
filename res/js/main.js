@@ -23,3 +23,7 @@ contentImg.onclick = () => {
     contentImg.style.height = "600px";
     contentImg.style.width = "600px";
  }
+ contentImg.onmouseout = () => {
+    contentImg.style.height = "auto";
+    contentImg.style.width = "auto";
+ }
